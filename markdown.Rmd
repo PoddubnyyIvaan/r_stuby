@@ -1,23 +1,25 @@
 ---
 title: "research"
+author: "Поддубный Иван"
+date: "2023-17-12"
 output:
   pdf_document:
-        latex_engine: xelatex
-  html_document: default
-  keep_markdown: true        
-  keep_tex: true   
-  header-includes:
-   - \XeTeXdefaultencoding utf8
-   - \usepackage{xltxtra}
-   - \usepackage{fontspec}
-   - \setmainfont{Times New Roman}
-   - \setsansfont{Arial}
-   - \setmonofont{Courier New}
-   - \newfontfamily{\cyrillicfont}{Times New Roman}
-   - \newfontfamily{\cyrillicfonttt}{Courier New} 
-   - \newfontfamily{\cyrillicfontsf}{Arial} 
-   - \usepackage[english,russian]{babel}
-date: "2023-12-16"
+    latex_engine: xelatex
+  html_document:
+    df_print: paged
+keep_markdown: yes
+keep_tex: yes
+header-includes:
+- \XeTeXdefaultencoding utf8
+- \usepackage{xltxtra}
+- \usepackage{fontspec}
+- \setmainfont{Times New Roman}
+- \setsansfont{Arial}
+- \setmonofont{Courier New}
+- \newfontfamily{\cyrillicfont}{Times New Roman}
+- \newfontfamily{\cyrillicfonttt}{Courier New}
+- \newfontfamily{\cyrillicfontsf}{Arial}
+- \usepackage[english,russian]{babel}
 ---
 
 ```{r setup, include=FALSE}
